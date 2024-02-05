@@ -24,30 +24,11 @@
 
 ## 1. Setup
 
-The starter code for this lesson has been updated from where we left off last lesson, so be sure to follow the following to sync your code...
-
-1. Move into our existing `mongoose-movies` project:
-    ```
-    cd ~/code/mongoose-movies
-    ```
-2. Sync your code with the starter code for this lesson (mandatory):
-
-    ```
-    git reset --hard origin/sync-11-referencing-starter
-    ```
-3. Open the project's folder in VS Code:
-    ```
-    code .
-    ```
-4. Open an integrated terminal session:
-    ```
-    control + backtick
-    ```
-5. Start the Express server:
-    ```
-    nodemon
-    ```
-6. Browse to `localhost:3000`
+1. Fork and clone this repo.  
+3. `cd` into *u2_lessons_referencing_related_data_with_starter_code* and then *mongoose-movies*
+4. `npm i` to install the necessary dependencies for the project to run. 
+5.  `touch` a `.env` file
+6.  Copy over your `DATABASE_URL` from yesterday's **intro to mongoose** code.`
 
 ## 2. Review the Starter Code
 
